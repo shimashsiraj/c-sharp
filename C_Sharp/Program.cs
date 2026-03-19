@@ -65,6 +65,9 @@ namespace C_Sharp
             string textPrecision = "5.00001";
             float precision = Convert.ToSingle(textPrecision);
             Console.WriteLine(precision);
+
+            // boolean data type
+            bool value = true;
         }
     }
 }
