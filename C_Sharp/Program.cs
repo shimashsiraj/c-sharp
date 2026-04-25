@@ -11,63 +11,37 @@ namespace C_Sharp
         static void Main(string[] args)
         {
 
-            //Printing Hello World to the console
-            Console.WriteLine("Hello World!");
+            List <int> even = new List<int>();
+            List <int> odd = new List<int>();
 
-            //variables
+            for (int i = 0; i <= 20; i++)
+            {
+                if(i % 2 == 0)
+                {
+                    even.Add(i);
 
-            //integer
-            //int age = 22;
-            //Console.WriteLine(age);
+                }
+                else if(i % 2 == 1)
+                {
+                    odd.Add(i);
+                }
+                
+            }
 
+            Console.WriteLine("Printing Even Numbers: ");
 
-            ////long
-            //long bigNumber = 9000000000L;
-            //Console.WriteLine(bigNumber);
+            foreach (var i in even)
+            {
+                Console.Write($"{i} ");
+            }
 
-            ////double
-            //double negative = -55.8D;
-            //Console.WriteLine(negative);
+            Console.WriteLine(Environment.NewLine + "Printing Odd Numbers: ");
 
-            ////float
-            //float precision = 5.00001F;
-            //Console.WriteLine(precision);
+            foreach (var i in odd)
+            {
+                Console.Write($"{i} ");
+            }
 
-
-            //methonds of initializing variables
-            //1
-            //int x;
-            //int y;
-            //int z;
-
-            //2
-            int x, y, z;
-
-            //string conversion
-
-            //integer
-            string textAge = "22";
-            int age = Convert.ToInt32(textAge);
-            Console.WriteLine(age);
-
-
-            //long
-            string textBigNumber = "9000000000";
-            long bigNumber = Convert.ToInt64(textBigNumber);
-            Console.WriteLine(bigNumber);
-
-            //double
-            string textNegative = "-55.8";
-            double negative = Convert.ToDouble(textNegative);
-            Console.WriteLine(negative);
-
-            //float
-            string textPrecision = "5.00001";
-            float precision = Convert.ToSingle(textPrecision);
-            Console.WriteLine(precision);
-
-            // boolean data type
-            bool value = true;
         }
     }
 }
