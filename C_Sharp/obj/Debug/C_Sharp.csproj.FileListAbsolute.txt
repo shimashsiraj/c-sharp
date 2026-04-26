@@ -1,0 +1,7 @@
+C:\Users\saint\source\repos\c-sharp\C_Sharp\bin\Debug\C_Sharp.exe.config
+C:\Users\saint\source\repos\c-sharp\C_Sharp\bin\Debug\C_Sharp.exe
+C:\Users\saint\source\repos\c-sharp\C_Sharp\bin\Debug\C_Sharp.pdb
+C:\Users\saint\source\repos\c-sharp\C_Sharp\obj\Debug\C_Sharp.csproj.AssemblyReference.cache
+C:\Users\saint\source\repos\c-sharp\C_Sharp\obj\Debug\C_Sharp.csproj.CoreCompileInputs.cache
+C:\Users\saint\source\repos\c-sharp\C_Sharp\obj\Debug\C_Sharp.exe
+C:\Users\saint\source\repos\c-sharp\C_Sharp\obj\Debug\C_Sharp.pdb
