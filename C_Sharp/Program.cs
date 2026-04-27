@@ -8,39 +8,26 @@ namespace C_Sharp
 {
     internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
+            int width = UserInput("Enter Width: ");
 
-            List <int> even = new List<int>();
-            List <int> odd = new List<int>();
+            int height = UserInput("Enter Height: ");
 
-            for (int i = 0; i <= 20; i++)
-            {
-                if(i % 2 == 0)
-                {
-                    even.Add(i);
+            CalcArea(width, height);
+        }
 
-                }
-                else if(i % 2 == 1)
-                {
-                    odd.Add(i);
-                }
-                
-            }
 
-            Console.WriteLine("Printing Even Numbers: ");
+        static int UserInput(string message)
+        {
+            Console.Write(message);
+            return Convert.ToInt32(Console.ReadLine());
+        }
 
-            foreach (var i in even)
-            {
-                Console.Write($"{i} ");
-            }
-
-            Console.WriteLine(Environment.NewLine + "Printing Odd Numbers: ");
-
-            foreach (var i in odd)
-            {
-                Console.Write($"{i} ");
-            }
+        static void CalcArea(int width, int height)
+        {
+            int area = (width * height) / 2;
+            Console.WriteLine($"Area of Triangle: {area}");
 
         }
     }
